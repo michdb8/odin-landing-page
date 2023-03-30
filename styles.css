@@ -1,0 +1,207 @@
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.95);
+  font-family: sans-serif, Georgia, "Times New Roman", Times, serif;
+}
+
+.head {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding-bottom: 0px;
+  border-bottom: white 4px double;
+}
+
+li img {
+  width: 30px;
+  height: 30px;
+}
+.logotext {
+  font-weight: bolder;
+  font-size: 25px;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+.left-side,
+.right-side {
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+.left-side {
+  gap: 10px;
+  margin: 0;
+  padding-left: 14px;
+}
+.right-side {
+  gap: 23px;
+  padding-right: 40px;
+}
+
+.features {
+  flex: 1;
+}
+.features.body {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+  margin-left: 15px;
+
+  color: white;
+  padding: 20px;
+}
+.features img {
+  width: 400px;
+  height: auto;
+  margin-left: 30px;
+  border-radius: 10px;
+  border-style: double;
+  border: 10px;
+  margin-top: 30px;
+  text-align: center;
+
+  border-color: rgba(228, 223, 223, 0.95);
+}
+
+li h4 {
+  font-weight: bolder;
+  font-size: 18px;
+  padding: 0px 10px;
+  margin: 0px;
+}
+li p {
+  width: 500px;
+  padding: 10px;
+  margin: 0px;
+}
+h2 {
+  margin-left: 20px;
+  padding: 20px;
+}
+.images.cards {
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+  padding: 0px;
+  margin: 0px;
+}
+.cardsmain {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+.cardsblocks {
+  width: 200px;
+  height: 300px;
+}
+.cardscontainer {
+  margin: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardscontainer h2 {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.cardsblocks h5 {
+  font-weight: bolder;
+  font-size: 15px;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+.cardsblocks p {
+  font-size: 12px;
+
+  padding: 0px;
+}
+body .cardscontainer {
+  background-color: white;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  margin: 0px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  flex-wrap: wrap;
+}
+.quote p {
+  width: 500px;
+  font-size: 18px;
+  flex: 1;
+}
+.quote h5 {
+  margin-top: 10px;
+  margin-left: 380px;
+  align-self: auto;
+}
+.main.contact {
+  background-color: white;
+  margin: 0px 0px;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+}
+.card.contact {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.95);
+  padding: 30px 80px;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  gap: 70px;
+}
+.card.text h3 {
+  margin: 0px;
+  font-weight: 900;
+  font-size: 21px;
+}
+.card.text p {
+  margin: 0px;
+  font-size: 14px;
+}
+
+button {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.95);
+  border-color: white;
+  border-radius: 5px;
+  padding: 5px 35px;
+  border-style: solid;
+  border-width: 2px;
+  font-weight: bolder;
+}
+.footer {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 12px;
+}
